@@ -11,12 +11,16 @@
 }
 @media screen and (min-width:600px){
     body{
-        margin: 20px 0px;
+        margin: 90px 0px;
     }
     section{
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px #00000044;
+    }
+    header.cabeçario{
+        padding: 20px;
+        padding-bottom: 100px;
     }
     
 }
@@ -47,7 +51,8 @@ header.cabeçario{
 
 header.cabeçario > img.imagem{
     width: 100%;
-    height: 100%;
+    min-height: 200px;
+    max-height: 300px;
 }   
 section h1.titulo1{
     margin-left: 21px;
