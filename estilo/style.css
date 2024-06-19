@@ -8,6 +8,7 @@
     font-family: 'titulo';
     src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
 }
+
 @media screen and (min-width:600px){
     body{
         margin: 90px 0px;
@@ -21,11 +22,16 @@
         padding: 20px;
         padding-bottom: 100px;
     }
+    header.cabeçario > img.imagem{
+        border-radius: 10px;
+    }
     
 }
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: simples;
 }
 body{
     background-color:hsl(30, 54%, 90%) ;
@@ -55,7 +61,7 @@ header.cabeçario > img.imagem{
 }   
 section h1.titulo1{
     margin-left: 21px;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: titulo;
     font-weight: 100;
     margin-right: 21px;
@@ -63,7 +69,7 @@ section h1.titulo1{
 section h2.titulo2{
     color:hsl(14, 45%, 36%) ;
     margin: 25px;
-    font-family: serif;
+    font-family:titulo;
 }
 .artigo4 > .titulo2{
     margin: 10px;
@@ -86,8 +92,8 @@ ul{
 ol{
     margin-left: 40px;
     margin-right: 20px;
-    line-height: 28px;
-    
+    line-height: 20px;
+    font-size: 0.9em;
 }
 li{
     padding-left: 20px;
@@ -107,7 +113,7 @@ article.artigo1 > h3.titulo3{
     
 }
 table{
-    margin: auto;
+    width: 100%;
     border-collapse: collapse;
     
 }
@@ -117,10 +123,9 @@ tr{
 }
 td,th{
     
-    padding: 10px;
     width: 100px;
+    padding: 15px 40% 15px 15px;
 }
 th{
     color: hsl(14, 45%, 36%);
 }
-
